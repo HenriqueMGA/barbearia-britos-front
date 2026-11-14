@@ -1,0 +1,27 @@
+# Sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Claude Code (configurações locais)
+.claude/
+
+# Variáveis de ambiente (não há no front, mas por segurança)
+.env
+.env.*
+
+# Dependências e builds (caso venham a ser usados)
+node_modules/
+dist/
+.vercel/
+
+# Logs e temporários
+*.log
+*.tmp
