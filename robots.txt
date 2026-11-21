@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://britosbarbearia.com.br/sitemap.xml
+Sitemap: https://barbearia-britos.vercel.app/sitemap.xml

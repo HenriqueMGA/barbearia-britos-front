@@ -38,7 +38,7 @@ Site institucional da **Britos Barbearia**, no Jardim Nordeste (Arthur Alvim), S
 | WhatsApp / telefone | (11) 96146-7020 (`https://wa.me/5511961467020`) |
 | Instagram | @britos_barbearia_ |
 | E-mail do SAC | sac@britosbarbearia.com.br |
-| Domínio | https://britosbarbearia.com.br |
+| Domínio | https://barbearia-britos.vercel.app |
 
 Esses dados se repetem em vários arquivos (cabeçalho, "Onde estamos", rodapé, SAC, páginas legais). Para trocar algum, veja o [guia de manutenção](#14-guia-de-manutenção).
 
@@ -215,7 +215,7 @@ Limitação declarada em `acessibilidade.html`: os elementos 3D podem não ser l
 - `description`, `canonical` e Open Graph/Twitter nas páginas indexáveis (`og:image` = `assets/img/og-image.jpg`).
 - `robots.txt` e `sitemap.xml` na raiz. Ao criar ou remover páginas, atualize o sitemap.
 - A 404 tem `noindex`.
-- Se o domínio publicado não for `britosbarbearia.com.br`, troque-o nos `.html`, no `robots.txt` e no `sitemap.xml`.
+- O site está publicado em `https://barbearia-britos.vercel.app`. Se mudar de endereço (ex.: domínio próprio), troque-o nos `.html` (`canonical`, `og:*`, `twitter:image`), no `robots.txt` e no `sitemap.xml`. As imagens de compartilhamento precisam de URL absoluta.
 
 ---
 
@@ -247,7 +247,7 @@ Checklist:
 4. Conferir os links do WhatsApp, do Instagram e do mapa.
 5. Resolver as [pendências](#15-pendências-antes-de-ir-ao-ar).
 6. Conferir o domínio em `canonical`, `og:*`, `robots.txt` e `sitemap.xml`, e enviar o sitemap ao Google Search Console.
-7. **GitHub Pages com domínio próprio:** criar um arquivo `CNAME` na raiz contendo `britosbarbearia.com.br` e configurar o DNS.
+7. Depois de publicar, testar a prévia de compartilhamento em https://developers.facebook.com/tools/debug/ (clicar em "Extrair novamente" limpa o cache usado pelo WhatsApp/Facebook).
 
 ---
 
